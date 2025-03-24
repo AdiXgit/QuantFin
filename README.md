@@ -1,3 +1,2 @@
-### QuantFin
-
-# Quantum Finance 
+# QuantFin
+Quantum Finance 
