@@ -9,7 +9,7 @@ class SamplerV2Adapter:
 
     def run(self, circuits, parameter_values, **kwargs):
         # Get shots from SamplerOptions (default=1024)
-        shots = self._sampler.options.default_shots
+        shots = int(self._sampler.options.default_shots)
         
         # Convert parameter values to PUB-compatible format
         pubs = []
