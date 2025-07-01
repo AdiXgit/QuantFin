@@ -4,6 +4,7 @@ import tensorflow as tf
 
 from model_train import get_timestep_embedding
 
+### Old Model 
 def get_transformer_denoise_model(embedding_dim,input_dim):
     y_t_input = Input(shape=(1,))
     t_input = Input(shape=(embedding_dim,))
@@ -21,6 +22,7 @@ def get_transformer_denoise_model(embedding_dim,input_dim):
 
     return Model([y_t_input, t_input, nyse_input], x)
 
+### New Model 
 # def get_transformer_denoise_model(embedding_dim,input_dim):
 #     y_t_input = Input(shape=(1,))
 #     t_input = Input(shape=(embedding_dim,))
