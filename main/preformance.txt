@@ -1,0 +1,31 @@
+# Without LR_Schedule and New Transformer Model 
+Transformer 
+MSE : 0.000482,MAE : 0.010994
+Drfit-Adjusted MSE : 0.000484,MAE : 0.011068
+Drift-Adjusted Directional Accuracy: 51.27%
+
+=== Prediction for Next Day ===
+NSE Return (Raw)           : -0.004634
+NSE Return (Drift Adjusted): -0.004082
+Predicted Direction        : Down
+
+# With LR_Schedule and New Transformer Model 
+Transformer 
+MSE : 0.000227,MAE : 0.010509
+Drfit-Adjusted MSE : 0.000229,MAE : 0.010567
+Drift-Adjusted Directional Accuracy: 54.45%
+
+=== Prediction for Next Day ===
+NSE Return (Raw)           : 0.022879
+NSE Return (Drift Adjusted): 0.023432
+Predicted Direction        : Up
+
+# With LR_Schedule Previous Transformer Model 
+MSE : 0.000229,MAE : 0.010195
+Drfit-Adjusted MSE : 0.000232,MAE : 0.010252
+Drift-Adjusted Directional Accuracy: 54.34%
+
+=== Prediction for Next Day ===
+NSE Return (Raw)           : 0.000289
+NSE Return (Drift Adjusted): 0.000841
+Predicted Direction        : Up
