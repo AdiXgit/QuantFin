@@ -40,7 +40,7 @@ def train_step(model,optimizer,x_batch,y_batch,embedding_dim,alpha_bars,T):
 
 #  Train Loop
 def training_model(train_dataset,model,embedding_dim,alpha_bars,T): 
-    num_epochs = 200
+    num_epochs = 1000
     lr_schedule = ExponentialDecay(
         initial_learning_rate=1e-3,
         decay_steps=100,

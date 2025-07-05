@@ -4,8 +4,8 @@ import tensorflow as tf
 from sklearn.preprocessing import StandardScaler
 
 def get_data():
-    nifty = pd.read_csv("E:/Coding/Projects/QuantFin/main/data/NIFTY_50_20_Year_His_Data.csv")
-    nyse = pd.read_csv("E:/Coding/Projects/QuantFin/main/data/NYSE_20_Year_His_Data.csv")
+    nifty = pd.read_csv("E:/portfolio/QuantFin/main/data/NIFTY_50_20_Year_His_Data.csv")
+    nyse = pd.read_csv("E:/portfolio/QuantFin/main/data/NYSE_20_Year_His_Data.csv")
     
     df_nifty = pd.DataFrame(nifty)
     df_nyse = pd.DataFrame(nyse)
